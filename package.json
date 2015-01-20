@@ -1,6 +1,6 @@
 {
   "name"            : "anamastreet",
-  "version"         : "0.0.3",
+  "version"         : "0.0.4",
   "description"     : "Buildr Bash Completions",
   "main"            : "index.js",
   "dependencies"    : {
