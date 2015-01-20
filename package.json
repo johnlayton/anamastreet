@@ -1,0 +1,29 @@
+{
+  "name"            : "anamastreet",
+  "version"         : "0.0.1",
+  "description"     : "Buildr Bash Completions",
+  "main"            : "index.js",
+  "dependencies"    : {
+  },
+  "devDependencies" : {
+    "gulp"          : "^3.6.2",
+    "shasum"        : "^1.0.0",
+    "gulp-tar"      : "^0.4.0",
+    "gulp-template" : "^0.1.1",
+    "gulp-gzip"     : "0.0.8",
+    "gulp-filter"   : "^0.4.1"
+  },
+  "scripts"         : {
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository"      : {
+    "type" : "git",
+    "url"  : "https://github.com/johnlayton/anamastreet.git"
+  },
+  "author"          : "",
+  "license"         : "ISC",
+  "bugs"            : {
+    "url" : "https://github.com/johnlayton/anamastreet/issues"
+  },
+  "homepage"        : "https://github.com/johnlayton/anamastreet"
+}
