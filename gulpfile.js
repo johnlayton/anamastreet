@@ -5,15 +5,16 @@ var path = require( 'path' );
 var spawn = require( 'child_process' ).spawn;
 
 var version = require( './package.json' ).version;
+var cwd = path.resolve( process.cwd(), '..' );
+
+console.log( cwd )
 
 gulp.task( 'default', function () {
   tar = spawn( 'tar', [
     '-cpvzf',
-    'dist/buildr-' + version + '.tar.gz',
-    //'bin',
-    //'libexec',
-    'completions'
-  ] );
+    'anamastreet/dist/buildr-' + version + '.tar.gz',
+    'anamastreet/completions'
+  ], { cwd: cwd } );
   tar.on( 'close', function ( code ) {
     var version = require( './package.json' ).version;
     var filename = './dist/buildr-' + version + '.tar.gz';
