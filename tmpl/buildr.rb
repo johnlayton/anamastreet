@@ -2,7 +2,7 @@ require 'formula'
 
 class Buildr < Formula
   homepage ''
-  url 'https://github.com/johnlayton/anamastreet/raw/master/dist/jsenv-<%= version %>.tar.gz'
+  url 'https://github.com/johnlayton/anamastreet/raw/master/dist/buildr-<%= version %>.tar.gz'
   sha1 '<%= shasum %>'
 
   def install
