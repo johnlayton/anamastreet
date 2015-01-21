@@ -6,9 +6,7 @@ class Buildr < Formula
   sha1 '<%= shasum %>'
 
   def install
-    if build.with? "completions"
-      bash_completion.install "completions/buildr.bash"
-    end
+    bash_completion.install "completions/buildr.bash"
   end
 
 end
